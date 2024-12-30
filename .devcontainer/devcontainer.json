@@ -1,0 +1,19 @@
+{
+  "name": "Next.js Development",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "dsznajder.es7-react-js-snippets",
+        "ms-python.python",
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "remoteUser": "node"
+}
